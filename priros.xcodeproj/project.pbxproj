@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995361372CD0635B005DC1C2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 995361362CD0635B005DC1C2 /* FirebaseAnalyticsOnDeviceConversion */; };
+		9953613A2CD0684E005DC1C2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 995361392CD0684E005DC1C2 /* FirebaseMessaging */; };
 		99D224072CCB29B0004D0B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D224062CCB29B0004D0B1F /* AppDelegate.swift */; };
 		99D224092CCB29B0004D0B1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D224082CCB29B0004D0B1F /* SceneDelegate.swift */; };
 		99D2240B2CCB29B0004D0B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2240A2CCB29B0004D0B1F /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 		99D2241E2CCB29B2004D0B1F /* prirosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2241D2CCB29B2004D0B1F /* prirosTests.swift */; };
 		99D224282CCB29B2004D0B1F /* prirosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D224272CCB29B2004D0B1F /* prirosUITests.swift */; };
 		99D2242A2CCB29B2004D0B1F /* prirosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D224292CCB29B2004D0B1F /* prirosUITestsLaunchTests.swift */; };
+		99D224372CCF6AF7004D0B1F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99D224362CCF6AF7004D0B1F /* GoogleService-Info.plist */; };
+		99D2243A2CCF785D004D0B1F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 99D224392CCF785D004D0B1F /* FirebaseAnalytics */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9953613B2CD9DB30005DC1C2 /* priros.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = priros.entitlements; sourceTree = "<group>"; };
 		99D224032CCB29B0004D0B1F /* priros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = priros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D224062CCB29B0004D0B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99D224082CCB29B0004D0B1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		99D224232CCB29B2004D0B1F /* prirosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prirosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D224272CCB29B2004D0B1F /* prirosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prirosUITests.swift; sourceTree = "<group>"; };
 		99D224292CCB29B2004D0B1F /* prirosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prirosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99D224362CCF6AF7004D0B1F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9953613A2CD0684E005DC1C2 /* FirebaseMessaging in Frameworks */,
+				99D2243A2CCF785D004D0B1F /* FirebaseAnalytics in Frameworks */,
+				995361372CD0635B005DC1C2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		995361382CD0684E005DC1C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99D223FA2CCB29B0004D0B1F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +99,7 @@
 				99D2241C2CCB29B2004D0B1F /* prirosTests */,
 				99D224262CCB29B2004D0B1F /* prirosUITests */,
 				99D224042CCB29B0004D0B1F /* Products */,
+				995361382CD0684E005DC1C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +116,7 @@
 		99D224052CCB29B0004D0B1F /* priros */ = {
 			isa = PBXGroup;
 			children = (
+				9953613B2CD9DB30005DC1C2 /* priros.entitlements */,
 				99D224062CCB29B0004D0B1F /* AppDelegate.swift */,
 				99D224082CCB29B0004D0B1F /* SceneDelegate.swift */,
 				99D2240A2CCB29B0004D0B1F /* ViewController.swift */,
@@ -106,6 +124,7 @@
 				99D2240F2CCB29B2004D0B1F /* Assets.xcassets */,
 				99D224112CCB29B2004D0B1F /* LaunchScreen.storyboard */,
 				99D224142CCB29B2004D0B1F /* Info.plist */,
+				99D224362CCF6AF7004D0B1F /* GoogleService-Info.plist */,
 			);
 			path = priros;
 			sourceTree = "<group>";
@@ -143,6 +162,11 @@
 			dependencies = (
 			);
 			name = priros;
+			packageProductDependencies = (
+				99D224392CCF785D004D0B1F /* FirebaseAnalytics */,
+				995361362CD0635B005DC1C2 /* FirebaseAnalyticsOnDeviceConversion */,
+				995361392CD0684E005DC1C2 /* FirebaseMessaging */,
+			);
 			productName = priros;
 			productReference = 99D224032CCB29B0004D0B1F /* priros.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +239,9 @@
 				Base,
 			);
 			mainGroup = 99D223FA2CCB29B0004D0B1F;
+			packageReferences = (
+				99D224382CCF785D004D0B1F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 99D224042CCB29B0004D0B1F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99D224102CCB29B2004D0B1F /* Assets.xcassets in Resources */,
+				99D224372CCF6AF7004D0B1F /* GoogleService-Info.plist in Resources */,
 				99D224132CCB29B2004D0B1F /* Base in Resources */,
 				99D2240E2CCB29B0004D0B1F /* Base in Resources */,
 			);
@@ -440,10 +468,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = priros/priros.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = HN4UJ4MHA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = priros/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "프리로스";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -453,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = lawandtech.priros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -467,10 +499,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = priros/priros.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = HN4UJ4MHA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = priros/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "프리로스";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -480,7 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = lawandtech.priros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -601,6 +637,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99D224382CCF785D004D0B1F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		995361362CD0635B005DC1C2 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99D224382CCF785D004D0B1F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		995361392CD0684E005DC1C2 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99D224382CCF785D004D0B1F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		99D224392CCF785D004D0B1F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99D224382CCF785D004D0B1F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99D223FB2CCB29B0004D0B1F /* Project object */;
 }
