@@ -171,8 +171,8 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, WKSc
             
             // 닫기 버튼 Auto Layout 설정
             NSLayoutConstraint.activate([
-                closeButton.topAnchor.constraint(equalTo: webViewContainer.topAnchor, constant: 20),
-                closeButton.trailingAnchor.constraint(equalTo: webViewContainer.trailingAnchor, constant: -20)
+                closeButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 20),
+                closeButton.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor, constant: -20)
             ])
             
             

@@ -5,7 +5,7 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>NSCameraUsageDescription</key>
-	<string>사진 업로드를 위한 촬영을 허용합니다.</string>
+	<string>사진 첨부 기능을 이용할 수 있습니다. (필수권한)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
