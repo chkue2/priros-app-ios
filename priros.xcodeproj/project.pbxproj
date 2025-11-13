@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		995361372CD0635B005DC1C2 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 995361362CD0635B005DC1C2 /* FirebaseAnalyticsOnDeviceConversion */; };
 		9953613A2CD0684E005DC1C2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 995361392CD0684E005DC1C2 /* FirebaseMessaging */; };
+		9973DE5C2D013ED300724551 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 9973DE5B2D013ED300724551 /* splash.png */; };
 		99D224072CCB29B0004D0B1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D224062CCB29B0004D0B1F /* AppDelegate.swift */; };
 		99D224092CCB29B0004D0B1F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D224082CCB29B0004D0B1F /* SceneDelegate.swift */; };
 		99D2240B2CCB29B0004D0B1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D2240A2CCB29B0004D0B1F /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		9953613B2CD9DB30005DC1C2 /* priros.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = priros.entitlements; sourceTree = "<group>"; };
+		9973DE5B2D013ED300724551 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../../../../../../Downloads/splash.png; sourceTree = "<group>"; };
 		99D224032CCB29B0004D0B1F /* priros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = priros.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99D224062CCB29B0004D0B1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99D224082CCB29B0004D0B1F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,9 +94,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9973DE592D013EB100724551 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9973DE5A2D013EBC00724551 /* Splash */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9973DE5A2D013EBC00724551 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				9973DE5B2D013ED300724551 /* splash.png */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		99D223FA2CCB29B0004D0B1F = {
 			isa = PBXGroup;
 			children = (
+				9973DE592D013EB100724551 /* Resources */,
 				99D224052CCB29B0004D0B1F /* priros */,
 				99D2241C2CCB29B2004D0B1F /* prirosTests */,
 				99D224262CCB29B2004D0B1F /* prirosUITests */,
@@ -262,6 +281,7 @@
 				99D224372CCF6AF7004D0B1F /* GoogleService-Info.plist in Resources */,
 				99D224132CCB29B2004D0B1F /* Base in Resources */,
 				99D2240E2CCB29B0004D0B1F /* Base in Resources */,
+				9973DE5C2D013ED300724551 /* splash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +490,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = priros/priros.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = HN4UJ4MHA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = priros/Info.plist;
@@ -486,7 +506,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2;
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = lawandtech.priros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -502,7 +522,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = priros/priros.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 12;
+				CURRENT_PROJECT_VERSION = 13;
 				DEVELOPMENT_TEAM = HN4UJ4MHA4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = priros/Info.plist;
@@ -518,7 +538,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.2;
+				MARKETING_VERSION = 2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = lawandtech.priros;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
